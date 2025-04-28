@@ -10,8 +10,8 @@ This project builds a simple RAG chatbot to answer questions about tenancy agree
 
 ## Files
 
-- `create_vectorstore.ipynb` — Create and store tenancy agreement chunks into Chroma vectorstore.
-- `rag_chatbot.ipynb` — Load vectorstore, rewrite query with an LLM, retrieve relevant chunks, rerank, and generate answers with GPT-4o-mini.  
+- `create_vector_db.ipynb` — Create and store tenancy agreement chunks into Chroma vectorstore.
+- `tenancy_rag_pipeline.ipynb` — Load vectorstore, rewrite query with an LLM, retrieve relevant chunks, rerank, and generate answers with GPT-4o-mini.  
   It also provides a list of testing questions that a real estate agent may ask.
 - `requirements.txt`
 
